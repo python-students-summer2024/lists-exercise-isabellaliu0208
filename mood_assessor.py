@@ -23,9 +23,6 @@ def has_entered_mood_today():
 
 
 def assess_mood():
-    # mood_score = get_mood_input()
-    # if not store_mood(mood_score):
-    #     return
     if has_entered_mood_today():
         print("Sorry, you have already entered your mood today.")
         return
